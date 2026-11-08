@@ -29,11 +29,25 @@ DOI: [10.1145/3424616.3424697](https://doi.org/10.1145/3424616.3424697) · Autho
 ```
 
 The sources were built on Overleaf with TeX Live 2019 (pdfTeX 1.40.20), hence the TeX Live 2019 container; TeX Live 2020 typesets math slightly differently.
-The build reproduces `otto2020-pbr-lighting-as-submitted.pdf` (identical text and layout).
+On `main`, the build produces the revised version (`v1.1-revised`). Check out `v1.0-camera-ready` to reproduce `otto2020-pbr-lighting-as-submitted.pdf` (identical text and layout).
 
 ## Versions
 
 - [`v1.0-camera-ready`](https://github.com/dl-archive/article.2020-web3d-pbr-lighting/tree/v1.0-camera-ready) – camera-ready sources (Overleaf author's version, 2021-08-12)
+- [`v1.1-revised`](https://github.com/dl-archive/article.2020-web3d-pbr-lighting/tree/v1.1-revised) – author's revised version (2026-11-08): grammar and reference fixes, see [Revisions](#revisions)
+
+## Revisions
+
+`v1.1-revised` (2026-11-08) corrects errors in the camera-ready version without changing its content or layout.
+Every page carries the note "Author's revised version (2026-11-08). Version of record: https://doi.org/10.1145/3424616.3424697".
+
+- Spelling: "model", "Lambertian" (2×), "photo" (Figure 6), "outputting 6 faces" (Figure 5), "Sketchfab", "high-quality", "open-source", "image-based", "view-dependent" (2×), "cosine-weighted", "single-digit", "soft shadows", "outward".
+- Grammar and word choice: "at a point where", "the low performance of mobile graphics cards renders", "regarding visual quality", "Karis introduces", "only one environment map sample", "considering area lights as point lights", "for both the diffuse and specular BRDF", "based on different roughness values", "It depends on a material's roughness", "sufficiently accurately", "allows favoring", "as a means to", "on request", "after which", "to calculate shadowing", "three scenes", "the reference shows", "is not appropriately covered", "time of all three", "adding screen-space reflections" (Figure 13), "lighting and shadowing are", "could increase the quality", "Progressive Area Lighting", "on Different Hardware", "Equation", and missing commas.
+- Algorithm 1: set union (∪) instead of intersection when adding a sample to $s_i$.
+- Figure 13: the demo link now includes `https://`.
+- References: "image enhancements" (Fuchs et al.), "ACM SIGGRAPH Computer Graphics" (Haeberli and Akeley), "CryEngine" (Mittring), "glTF/X3D" (Sturm et al.), "Symposium on Interactive 3D Graphics and Games" (Ritschel et al.), "de Rousiers" (Lagarde and de Rousiers).
+
+Not fixed because they would reflow the layout: "Epic Games" and "Walt Disney Animation Studios" appear as co-authors of Karis 2013 and Burley 2012 (they are the authors' employers).
 
 ## Citation
 
