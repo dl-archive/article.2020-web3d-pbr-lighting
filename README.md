@@ -4,7 +4,7 @@ Philipp Otto, [Daniel Limberger](https://orcid.org/0000-0002-9111-4809), and [J�
 
 *Proceedings of the 25th International Conference on 3D Web Technology (Web3D '20)*, November 9–13, 2020, Virtual Event, Republic of Korea. ACM, pp. 15:1–9.
 
-[![Version of record: 10.1145/3424616.3424697](https://img.shields.io/badge/Version_of_record-10.1145%2F3424616.3424697-007ec6)](https://doi.org/10.1145/3424616.3424697) [![Author's version: 10.5281/zenodo.24061872](https://img.shields.io/badge/Author%27s_version-10.5281%2Fzenodo.24061872-007ec6)](https://doi.org/10.5281/zenodo.24061872) · [ResearchGate](https://www.researchgate.net/publication/347578774)
+[![Version of record: 10.1145/3424616.3424697](https://img.shields.io/badge/Version_of_record-10.1145%2F3424616.3424697-007ec6)](https://doi.org/10.1145/3424616.3424697) [![Author's version: 10.5281/zenodo.24061872](https://img.shields.io/badge/Author%27s_version-10.5281%2Fzenodo.24061872-007ec6)](https://doi.org/10.5281/zenodo.24061872) [![ResearchGate](https://img.shields.io/badge/ResearchGate-publication-00CCBB?logo=researchgate&logoColor=white)](https://www.researchgate.net/publication/347578774)
 
 > This paper presents a progressive rendering approach that enables rendering of static 3D scenes, lit by physically-based environment and area lights.
 > Multi-frame sampling strategies are used to approximate elaborate lighting that is refined while showing intermediate results to the user.
